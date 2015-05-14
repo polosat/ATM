@@ -1,0 +1,24 @@
+﻿<div class="num-pad">
+  <table>
+    <tbody>
+      <tr>
+        <td class="numeric-buttons">
+          <table>
+            <tbody>
+              <tr ng-repeat="row in [0, 1, 2, 3]">
+                <td ng-repeat="col in [1, 2, 3]">
+                  <div class="btn btn-default num-pad-button" ng-class="{'disabled': disabled || inputValue.length >= maxLength}" ng-hide="$parent.$last && ($first || $last)" ng-click="onNumericKeyPress(row, col)">{{getDigitAtPos(row, col)}}</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+        <td class="special-buttons">
+          <div ng-repeat="button in customKeys">
+            <div class="btn special-button {{button.className}}" ng-class="{'disabled': disabled || button.disabled }" ng-click="button.onClick()">{{button.title}}</div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,28 @@
+﻿<!doctype html>
+<html ng-app="atmApp" ng-controller="appCtrl">
+<head>
+  <title ng-bind="pageTitle"></title>
+  <link rel="stylesheet" href="~/Content/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="~/Content/bootstrap/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="~/Content/atm.css">
+  <link rel="stylesheet" href="~/Scripts/ATM/Directives/Keypad/keypad.css">
+  <script src="~/Scripts/angular.min.js"></script>
+  <script src="~/Scripts/angular-ui-router.min.js"></script>
+  <script src="~/Scripts/ATM/app.js"></script>
+  <script src="~/Scripts/ATM/Assets/strings_ru-ru.js"></script>
+  <script src="~/Scripts/ATM/Assets/filters.js"></script>
+  <script src="~/Scripts/ATM/Directives/Keypad/keypad.js"></script>
+  <script src="~/Scripts/ATM/Models/models.js"></script>
+  <script src="~/Scripts/ATM/Controllers/error.js"></script>
+  <script src="~/Scripts/ATM/Controllers/entercard.js"></script>
+  <script src="~/Scripts/ATM/Controllers/enterpin.js"></script>
+  <script src="~/Scripts/ATM/Controllers/selectoperation.js"></script>
+  <script src="~/Scripts/ATM/Controllers/showbalance.js"></script>
+  <script src="~/Scripts/ATM/Controllers/withdrawal.js"></script>
+  <script src="~/Scripts/ATM/Controllers/showwithdrawalresult.js"></script>
+  <script src="~/Scripts/ATM/Services/cardoperations.js"></script>
+</head>
+<body ng-cloak>
+  <div class="content" ui-view></div>
+</body>
+</html>

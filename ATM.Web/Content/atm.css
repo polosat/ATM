@@ -1,0 +1,62 @@
+﻿body {
+}
+
+.content {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-box {
+  text-align: center;
+  width: 530px;
+  margin: 30px;
+}
+
+.pin-box,
+.amount-box {
+  text-align: center;
+  width: 290px;
+  margin: 30px 150px;
+}
+
+.label-box {
+  margin: 20px 0;
+}
+
+.title-box {
+  width: 550px;
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.content-error {
+  width: 590px;
+  text-align: center;
+}
+
+.message-error {
+  margin-bottom: 40px;
+}
+
+.label-text {
+  font-weight: bold;
+  color: #606060;
+}
+
+.border-gray {
+  border: 1px solid #C0C0C0;
+}
+
+.btn-control {
+  width: 250px;
+  height: 100px;
+  line-height: 85px;
+}
+
+.btn-wide {
+  width: 590px;
+  height: 100px;
+  line-height: 85px;
+}
+
+

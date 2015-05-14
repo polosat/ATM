@@ -1,0 +1,27 @@
+﻿.num-pad {
+  width: 590px;
+  /*margin: 0 auto;*/
+}
+
+.num-pad-button {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  padding: 0;
+  margin: 5px;
+}
+
+.special-button {
+  width: 250px;
+  line-height: 100px;
+  padding: 0;
+  margin: 5px;
+}
+
+.special-buttons {
+  vertical-align: top;
+}
+
+.numeric-buttons {
+  vertical-align: top;
+}
